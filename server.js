@@ -79,4 +79,5 @@ app.put("/addPhoto", async (req, res) => {
 
 app.post("/deletePhoto/:photoid", (req, res) => {
   res.send("Deleted photo from logged in user.");
+  
 });
